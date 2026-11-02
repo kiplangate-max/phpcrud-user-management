@@ -67,4 +67,43 @@ Place the project folder inside:
 
 Start Apache and MySQL from the XAMPP Control Panel.
 
-### 3. Database
+### 3. Database Setup
+
+1. Open [phpMyAdmin](http://localhost/phpmyadmin).
+2. Open the SQL tab.
+3. Execute the contents of `database.sql`.
+4. Confirm that the `phpcrud` database and `tblusers` table exist.
+
+### 4. Run the Application
+
+Open:
+
+[http://localhost/phpcrud/](http://localhost/phpcrud/)
+
+## Database Configuration
+
+| Setting  | Value     |
+| -------- | --------- |
+| Host     | localhost |
+| Username | root      |
+| Password | Blank     |
+| Database | phpcrud   |
+
+Update `dbconnection.php` if your MySQL configuration is different.
+
+## CRUD Operations
+
+| Operation | Description           |
+| --------- | --------------------- |
+| Create    | Add a new user        |
+| Read      | View user records     |
+| Update    | Edit user information |
+| Delete    | Remove a user record  |
+
+## Developer
+
+GitHub: [kiplangate-max](https://github.com/kiplangate-max)
+
+---
+
+_Developed as part of Web Application Development coursework._
